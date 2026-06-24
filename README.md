@@ -99,6 +99,16 @@ python -m multi_agent_research_lab.cli multi-agent \
 
 Mặc định lệnh sẽ báo các `TODO` cần làm. Đây là chủ đích của starter repo.
 
+### 6. Chạy Web App giao diện đồ họa (Streamlit Dashboard)
+
+Dự án hỗ trợ một giao diện Web tương tác trực quan chạy trên localhost để theo dõi luồng chạy của các agent và kết quả nghiên cứu trong thời gian thực.
+
+Chạy Web App bằng lệnh:
+```bash
+streamlit run src/multi_agent_research_lab/web_app.py
+```
+Sau khi chạy, giao diện sẽ tự động hiển thị tại địa chỉ: [http://localhost:8501](http://localhost:8501).
+
 ## Milestones trong 2 giờ lab
 
 | Thời lượng | Milestone | File gợi ý |
